@@ -1,47 +1,41 @@
-<html>
-    <head>
-        <link rel="stylesheet" href="styles.css">
-        <title>Rock</title>
-        <!-- Link to your script file(s) and CSS in here somewhere -->
-    </head>
-    <body>
-        <div class="container">
-            <h1>Select a Game Mode:</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Rock</title>
+    <!-- Link to your script file(s) and CSS in here somewhere -->
+</head>
+<body>
+    <div class="container">
+        <h1>Select a Game Mode:</h1>
         <form id="gameForm">
             <input type="radio" id="rpsRadio" name="game" value="rps">
-            <label for="rpsRadio">Rock Paper Scissors</label><br>
+            <label for="rpsRadio">Rock Paper Scissors</label>
             <br>
             <input type="radio" id="rplsRadio" name="game" value="rpls">
-            <label for="rplsRadio">Rock Paper Scissors Lizard Spock</label><br>
+            <label for="rplsRadio">Rock Paper Scissors Lizard Spock</label>
             <br>
             <input name="opp" type="radio" id="hasOpp" value="opponent">
             <label for="hasOpp">Is there an Opponent?</label>
-
             <br>
             <div id="rockView" style="display:none">
-                <br>
-                <input name="shoot" type ="radio" id="rock" value="rock">
+                <input name="shoot" type="radio" id="rock" value="rock">
                 <label for="rock">ROCK</label>
             </div>
-
             <div id="scissorView" style="display:none">
-                <br>
-                <input name="shoot" type ="radio" id="scissor" value="scissor">
+                <input name="shoot" type="radio" id="scissor" value="scissor">
                 <label for="scissor">Scissor</label>
             </div>
             <div id="paperView" style="display:none">
-                <br>
-                <input name="shoot" type ="radio" id="paper" value="paper">
-                <label for="paper">Paper</label>  
+                <input name="shoot" type="radio" id="paper" value="paper">
+                <label for="paper">Paper</label>
             </div>
             <div id="lizardView" style="display:none">
-                <br>
-                <input name="shoot" type ="radio" id="lizard" value="lizard">
+                <input name="shoot" type="radio" id="lizard" value="lizard">
                 <label for="lizard">Lizard</label>
             </div>
             <div id="spockView" style="display:none">
-                <br>
-                <input name="shoot" type ="radio" id="spock" value="spock">
+                <input name="shoot" type="radio" id="spock" value="spock">
                 <label for="spock">Spock</label>
             </div>
             <div>
@@ -50,13 +44,10 @@
             <div>
                 <button id="refreshButton">Refresh Page</button>
             </div>
-        
         </form>
-    <!-- Your interface markup goes here -->
-    <!-- For interface examples, look in the `/examples/` directory in the root of your starter code repo. -->
-
-        </div>
-        
-    </body>
-    <script src="scripts.js"></script>
+        <!-- Your interface markup goes here -->
+        <!-- For interface examples, look in the `/examples/` directory in the root of your starter code repo. -->
+    </div>
+</body>
+<script src="scripts.js"></script>
 </html>
